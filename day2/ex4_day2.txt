@@ -1,0 +1,10 @@
+° c += a > 0 && a <= 15 ? ++a : a/b;
+
+c'est une expression ternaire, si le test (a > 0 && a <= 15) est True c reçoit 
+la valeur c+a et la valeur de a s'incremente par 1 , sinon c reçoit la valeur
+c+a/b .
+
+°a > 30 ? b = 11 : c = 100; 
+
+aussi une expression ternaire, si a>30 b reçoit la valeur 11 sinon c reçoit 
+la valeur 100.

@@ -1,0 +1,7 @@
+° i <= j :(FALSE) c'est un test logic donc le retour doit être de type booleen. Dans ce cas on a i=8 et j=5, donc i<=j doit retourner FALSE (ce qui est equivaut à 0)
+° j !=6 :(TRUE) est aussi un test logic, le retour dans ce cas sera TRUE.
+° c == 99 :(TRUE) la variable c est de type char donc c'est un entier compris entre 0 et 127 mais il est écrit sous forme de lettre (il est converti selon le code de ASCII), d'après le tableau de code de ASCII 'c' est equivaut à 99, donc le test logic doit retourner TRUE.
+° (i > 0) && (j < 5) :(FALSE) le test est diviser en 2, la première partie teste si i est positif et la 2e si j est inferieur strictement à 5, le lien entre c'est 2 tests est "&&"~and , donc les 2 doivent être vraies pour retourner True, donc ce cas le retour est FALSE car j n'est pas strictement inferieur à 5.
+°(i > 0) || (j < 5) :(TRUE) la même chose que le dernier test sauf que le lien cette fois est "||"~ou ,donc il suffit qu'une soit vraie pour retourner TRUE (si le 1er test est vrai ce n'est pas la peine de tester le 2e). Dans ce cas c'est TRUE car i est positif.
+°(x > y) && (i > 0) || (j < 5) :(TRUE)
+°(x > y) && (i > 0) && (j < 5): (FALSE)
